@@ -1,0 +1,10 @@
+/home/chaipoint/eclipse-workspace/Demopro-api/demopro-dao/src/main/java/org/demopro/dao/model/RoleRepository.java
+/home/chaipoint/eclipse-workspace/Demopro-api/demopro-dao/src/main/java/org/demopro/dao/model/UserRoleRepository.java
+/home/chaipoint/eclipse-workspace/Demopro-api/demopro-dao/src/main/java/org/demopro/dao/model/ModuleRepository.java
+/home/chaipoint/eclipse-workspace/Demopro-api/demopro-dao/src/main/java/org/demopro/dao/model/RoleModuleRepository.java
+/home/chaipoint/eclipse-workspace/Demopro-api/demopro-dao/src/main/java/org/demopro/dao/model/RoleEntity.java
+/home/chaipoint/eclipse-workspace/Demopro-api/demopro-dao/src/main/java/org/demopro/dao/model/UserRoleEntity.java
+/home/chaipoint/eclipse-workspace/Demopro-api/demopro-dao/src/main/java/org/demopro/dao/model/ModuleEntity.java
+/home/chaipoint/eclipse-workspace/Demopro-api/demopro-dao/src/main/java/org/demopro/dao/model/UserEntity.java
+/home/chaipoint/eclipse-workspace/Demopro-api/demopro-dao/src/main/java/org/demopro/dao/model/UserRepository.java
+/home/chaipoint/eclipse-workspace/Demopro-api/demopro-dao/src/main/java/org/demopro/dao/model/RoleModuleEntity.java

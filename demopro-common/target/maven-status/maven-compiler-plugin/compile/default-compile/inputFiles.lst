@@ -1,0 +1,13 @@
+/home/chaipoint/eclipse-workspace/Demopro-api/demopro-common/src/main/java/org/demopro/common/model/Role.java
+/home/chaipoint/eclipse-workspace/Demopro-api/demopro-common/src/main/java/org/demopro/common/model/RoleModule.java
+/home/chaipoint/eclipse-workspace/Demopro-api/demopro-common/src/main/java/org/demopro/common/model/Module.java
+/home/chaipoint/eclipse-workspace/Demopro-api/demopro-common/src/main/java/org/demopro/common/model/ResponseRoleModule.java
+/home/chaipoint/eclipse-workspace/Demopro-api/demopro-common/src/main/java/org/demopro/common/model/ResponseUserRole.java
+/home/chaipoint/eclipse-workspace/Demopro-api/demopro-common/src/main/java/org/demopro/common/model/Response.java
+/home/chaipoint/eclipse-workspace/Demopro-api/demopro-common/src/main/java/org/demopro/common/model/Successv2.java
+/home/chaipoint/eclipse-workspace/Demopro-api/demopro-common/src/main/java/org/demopro/common/model/FailureResponse.java
+/home/chaipoint/eclipse-workspace/Demopro-api/demopro-common/src/main/java/org/demopro/common/model/ResponseUserData.java
+/home/chaipoint/eclipse-workspace/Demopro-api/demopro-common/src/main/java/org/demopro/common/model/UserRole.java
+/home/chaipoint/eclipse-workspace/Demopro-api/demopro-common/src/main/java/org/demopro/common/model/ResponseCode.java
+/home/chaipoint/eclipse-workspace/Demopro-api/demopro-common/src/main/java/org/demopro/common/model/User.java
+/home/chaipoint/eclipse-workspace/Demopro-api/demopro-common/src/main/java/org/demopro/common/model/SuccessResponse.java

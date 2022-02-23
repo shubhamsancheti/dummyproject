@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.shubham.demopro</groupId>
+    <artifactId>Demopro-api</artifactId>
+    <version>1.0</version>
+  </parent>
+  <artifactId>demopro-web</artifactId>
+  <packaging>war</packaging>
+  <name>demopro-web Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <scope>test</scope>
+    </dependency>
+    
+    <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+<dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>javax.servlet-api</artifactId>
+    <scope>provided</scope>
+    </dependency>
+   <dependency>
+      <groupId>com.shubham.demopro</groupId>
+    <artifactId>demopro-common</artifactId>
+    <version>1.0</version>
+    </dependency>
+  <dependency>
+      <groupId>com.shubham.demopro</groupId>
+    <artifactId>demopro-service</artifactId>
+    <version>1.0</version>
+    </dependency>
+  </dependencies>
+  <build>
+    <finalName>demopro-web</finalName>
+  </build>
+</project>

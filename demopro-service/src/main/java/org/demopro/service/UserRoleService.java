@@ -25,9 +25,9 @@ public class UserRoleService {
        return UserRolesList;
 	
 	}  
-	public UserRole getUserRoleById(int id)
+	public List<Integer> getUserRoleById(int id)
 	{	
-		return um.UreMaptoUserRole(userRoleRepository.findById(id).get());
+		return (userRoleRepository.getRoleByUserID(id));
 		
 	      
 	}

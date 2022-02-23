@@ -4,6 +4,7 @@ import org.demopro.common.model.ResponseUserData;
 import org.demopro.common.model.ResponseUserRole;
 import org.demopro.common.model.Role;
 import org.demopro.common.model.User;
+import org.springframework.stereotype.Service;
 
 public class UserMaptoResponseUser {
 	public ResponseUserData UsermaptoResponseUser(User u)

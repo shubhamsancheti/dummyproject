@@ -43,7 +43,7 @@ public class UserDetailService {
 	  List<Integer> roleids=userrolerepository.getRoleByUserID(userid); 
 	  List<Role> roles = new ArrayList<Role>(); roleids.forEach(r ->{
 	  
-	  List<Integer> modulesid = (rolemoduleservice.getModuleByRoleID(r));
+	  List<Integer> modulesid = (rolemoduleservice.getModuleByRoleID(r));//forloop
 	  List<Module> modules = new ArrayList<Module>();
 	  modulesid.forEach(m-> {
 		  modules.add(moduleservice.getModuleById(m)); 

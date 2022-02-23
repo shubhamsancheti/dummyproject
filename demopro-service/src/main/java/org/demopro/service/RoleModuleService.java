@@ -1,8 +1,12 @@
 package org.demopro.service;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
+import org.demopro.common.model.Role;
 import org.demopro.common.model.RoleModule;
 import org.demopro.dao.model.RoleModuleEntity;
 import org.demopro.dao.model.RoleModuleRepository;
@@ -59,5 +63,23 @@ public class RoleModuleService {
 	public List<Integer> getModuleByRoleID(int roleid)
 	{
 		return roleModuleRepository.getModuleByRoleID(roleid);
+	}
+	public Map<Integer,List<Integer>> getRoleModuleListMapByRoleIdList(List<Integer> roleidList)
+	{
+		List<RoleModuleEntity> rolemoduleentitylist = roleModuleRepository.getRoleModuleListbyRoleIdList(roleidList);
+		//return rolemoduleentitylist.stream().collect(Collectors.groupingBy(i->i.getRoleid(),Collectors.mapping(i->i.));
+		Map<Integer,List<Integer>> RoleModuleListMap  = new HashMap<>();
+		rolemoduleentitylist.forEach(rm->{
+			  try {
+				  RoleModuleListMap.get(rm.getRoleid()).add(rm.getModuleid());
+			  }
+			  catch(Exception e)
+			  {
+				 List<Integer> values = new ArrayList<Integer>();
+				 values.add(rm.getModuleid());
+				 RoleModuleListMap.put(rm.getRoleid(),values);
+			  }
+		  });
+		return RoleModuleListMap;
 	}
 }

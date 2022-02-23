@@ -23,11 +23,11 @@ public class UserRoleController {
 	{
 		return UserRoleservice.getAllUserRole();
 	}
-	@GetMapping("/UserRole/{id}")
-	public UserRole getUserRoleById(@PathVariable int id)
-	{
-		return UserRoleservice.getUserRoleById(id);
-	}
+//	@GetMapping("/UserRole/{id}")
+//	public UserRole getUserRoleById(@PathVariable int id)
+//	{
+//		return UserRoleservice.(id);
+//	}
 	//create 
 	@PostMapping("/UserRole")
 	public String CreateUserRoles(@RequestBody List<UserRole> UserRoles)

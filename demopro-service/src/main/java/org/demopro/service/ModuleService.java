@@ -8,6 +8,7 @@ import org.demopro.dao.model.ModuleRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.demopro.common.model.Module;
+import org.demopro.common.model.Role;
 
 
 
@@ -60,5 +61,13 @@ public class ModuleService {
 		{
 			return false;
 		}
+	}
+	public  List<Module> getModuleListByModuleIdList(List<Integer> moduleidlist)
+	{
+		List<Module> Modules = new ArrayList<Module>(); 
+		moduleRepository.getModulesbyModuleIDList(moduleidlist).forEach(moduleentity->{
+			Modules.add(mm.MeMaptoModule(moduleentity));
+		});
+		return Modules;
 	}
 }

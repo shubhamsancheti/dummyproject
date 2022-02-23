@@ -57,4 +57,12 @@ public class RoleService {
 			return false;
 		}
 	}
+	public  List<Role> getRoleListByRoleIdList(List<Integer> roleidlist)
+	{
+		List<Role> Roles = new ArrayList<Role>(); 
+		roleRepository.getRolesbyRoleIDList(roleidlist).forEach(roleentity->{
+			Roles.add(rm.ReMaptoRole(roleentity));
+		});
+		return Roles;
+	}
 }
